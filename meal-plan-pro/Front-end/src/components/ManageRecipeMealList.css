@@ -1,0 +1,288 @@
+.mr-body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.mr-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #1b80e2, #000000);
+    background-size: cover;
+    z-index: -1;
+}
+
+.mr-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    height: 100%;
+}
+
+.mr-lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mr-list {
+    flex-grow: 1;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background: #1a1a1a;
+    border: 4px solid #1b80e2;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    color: white;
+    width: calc(25% - 20px); /* Calculer la largeur pour afficher 3 éléments par ligne */
+    margin-right: 20px; /* Ajouter une marge droite */
+}
+
+.mr-list ul {
+    list-style-type: none; /* Supprimer les puces uniquement pour les listes d'éléments */
+}
+
+.mr-title {
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    color: white;
+}
+
+.mr-body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mr-item-info {
+    display: flex;
+    align-items: center;
+}
+
+.mr-item-icon {
+    margin-right: 10px;
+}
+
+.mr-item-details {
+    margin-left: 10px;
+}
+
+.mr-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.mr-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.mr-item-name {
+    font-weight: bold;
+}
+
+.mr-item-quantity {
+    margin-top: 5px;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.mr-button {
+    margin: 20px;
+}
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
+
+.mr-remove-btn {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+    background-image: linear-gradient(to right, #009cfd, #00bbff, #009cfd, #00bbff);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+.mr-remove-btn:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+
+.mr-remove-btn:focus {
+    outline: none;
+}
+
+.mr-show-more-btn {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+    background-image: linear-gradient(to right, #009cfd, #00bbff, #009cfd, #00bbff);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+.mr-show-more-btn:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.mr-show-more-btn:focus {
+    outline: none;
+}
+
+.mr-previous-btn
+{
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+    background-image: linear-gradient(to right, #009cfd, #00bbff, #009cfd, #00bbff);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+.mr-previous-btn:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.mr-previous-btn:focus
+{
+    outline: none;
+}
+
+.mr-next-btn
+{
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+    background-image: linear-gradient(to right, #009cfd, #00bbff, #009cfd, #00bbff);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+.mr-next-btn:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.mr-next-btn:focus
+{
+    outline: none;
+}
+
+
+
+.mr-details-section
+{
+    overflow: auto;
+    text-align: center;
+}
+
+.mr-details-section ul,
+.mr-details-section ol {
+    text-align: left; /* Réinitialiser l'alignement pour les listes */
+    display: inline-block; /* Permettre le centrage horizontal */
+}
+

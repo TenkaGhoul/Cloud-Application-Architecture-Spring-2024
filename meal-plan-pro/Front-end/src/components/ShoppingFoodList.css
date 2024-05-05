@@ -1,0 +1,69 @@
+.sh-body {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.sh-btn {
+    margin: 10%;
+    text-align: center;
+}
+
+.sh-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #1b80e2, #000000);
+    background-size: cover;
+    z-index: -1;
+}
+
+.sh-title {
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    color: white;
+}
+
+.sh-btn-create, .sh-btn-manage {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.sh-btn-create:hover, .sh-btn-manage:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.sh-btn-create, .sh-btn-manage:focus {
+    outline: none;
+}
+
+.sh-btn-create {
+    background-image: linear-gradient(to right, #009cfd, #00bbff, #009cfd, #00bbff);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+.sh-btn-manage {
+    background-image: linear-gradient(to right, #009cfd, #00bbff, #009cfd, #00bbff);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}

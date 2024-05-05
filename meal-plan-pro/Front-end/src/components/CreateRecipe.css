@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.cr-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #1b80e2, #000000); /* Bleu à Noir */
+    background-size: cover;
+    z-index: -1;
+}
+
+.cr-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-container {
+    width: 50%;
+}
+
+.cr-title {
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+.cr-list {
+    background: #1a1a1a; /* Noir */
+    border: 4px solid #1b80e2; /* Bleu */
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    color: white; /* Blanc */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.form-control {
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    background: #1b80e2; /* Bleu */
+    font-weight: bold;
+    font-size: 18px;
+    color: white; /* Blanc */
+}
+
+.ingredient-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lock-ingredient-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-checkbox {
+    margin-right: 5px;
+}
+
+.btn-add-ingredient {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #009cfd, #00bbff, #009cfd, #00bbff);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+.btn-add-ingredient:hover {
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+}
+
+.btn-save-recipe {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #009cfd, #00bbff, #009cfd, #00bbff);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+.btn-save-recipe:hover {
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+}
+
+.dynamic-content {
+    margin-left: 20px;
+}
+
+.recipe-preview {
+    background: #1a1a1a; /* Noir */
+    border: 4px solid #1b80e2; /* Bleu */
+    border-radius: 20px;
+    padding: 20px;
+    color: white; /* Blanc */
+}
+
+.recipe-preview h4 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.recipe-preview p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white; /* Blanc */
+}
+
+.recipe-preview ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recipe-preview ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: white; /* Blanc */
+}
+
+.cr-recipe-title
+{
+    color: white;
+}
